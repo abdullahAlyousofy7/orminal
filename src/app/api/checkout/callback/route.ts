@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 import { getPaymentStatus } from '@/lib/myfatoorah';
 import { getSupabaseServer } from '@/lib/supabase/server';
 import type { CheckoutConfig } from '@/content/quote';
-import { PENDING_COOKIE } from '../execute/route';
+import { PENDING_COOKIE } from '@/lib/checkout';
 
 export const dynamic = 'force-dynamic';
 
