@@ -1,12 +1,11 @@
 import { cookies } from 'next/headers';
 import { NextResponse } from 'next/server';
 import { computeQuote, sanitizeConfig } from '@/content/quote';
+import { PENDING_COOKIE } from '@/lib/checkout';
 import { executePayment, myfatoorahConfig } from '@/lib/myfatoorah';
 import { getSupabaseServer } from '@/lib/supabase/server';
 
 export const dynamic = 'force-dynamic';
-
-export const PENDING_COOKIE = 'orminal_checkout';
 
 export async function POST(request: Request) {
   const supabase = await getSupabaseServer();
