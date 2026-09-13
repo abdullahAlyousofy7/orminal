@@ -1,0 +1,37 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071b3e"/>
+      <stop offset="0.5" stop-color="#0d2a5c"/>
+      <stop offset="1" stop-color="#103f8f"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="740" y1="180" x2="1040" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29a9f3"/>
+      <stop offset="1" stop-color="#4aa3f8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.10" stroke="#ffffff" stroke-width="1">
+    <path d="M0 90H1200M0 210H1200M0 330H1200M0 450H1200M0 570H1200"/>
+    <path d="M150 0V630M350 0V630M550 0V630M750 0V630M950 0V630"/>
+  </g>
+
+  <!-- mark -->
+  <g transform="translate(80,175) scale(0.52)">
+    <path d="M256 84c95 0 172 77 172 172 0 20-3.4 39-9.7 57l-38-16c4.7-13 7.2-26.8 7.2-41 0-72-58.6-130.6-130.6-130.6S126 184 126 256s58.6 130.6 130.6 130.6c14.6 0 28.6-2.4 41.7-6.9l14.6 38.6c-18.3 6.6-38 10.2-58.6 10.2-95 0-172-77-172-172S161 84 256 84z" fill="#2f8bef"/>
+    <rect x="150" y="300" width="34" height="86" rx="8" fill="#29a9f3"/>
+    <rect x="205" y="256" width="34" height="130" rx="8" fill="#29a9f3"/>
+    <rect x="260" y="212" width="34" height="174" rx="8" fill="#29a9f3"/>
+    <path d="M150 372 L300 250 L360 300 L430 150" stroke="url(#acc)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M392 132 L446 138 L432 190 Z" fill="#29a9f3"/>
+  </g>
+
+  <text x="360" y="290" font-family="'Segoe UI',Arial,sans-serif" font-size="82" font-weight="800" fill="#ffffff">Orminal <tspan fill="#29a9f3">ERP</tspan></text>
+  <text x="362" y="352" font-family="'Segoe UI',Arial,sans-serif" font-size="34" font-weight="500" fill="#9db0cd">كل ما تحتاجه لإدارة أعمالك بذكاء في مكان واحد</text>
+  <text x="362" y="404" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="500" fill="#7f93b4">Accounting · Inventory · Sales &amp; POS · HR · Analytics</text>
+
+  <g transform="translate(362,470)">
+    <rect width="250" height="60" rx="14" fill="#1f7fea"/>
+    <text x="125" y="39" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="700" fill="#ffffff">orminal-erp.vercel.app</text>
+  </g>
+</svg>
